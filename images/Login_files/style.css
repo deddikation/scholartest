@@ -1,0 +1,196 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23 Jun 2018, 12:54:33 PM
+    Author     : MASHE_K
+*/
+
+/* Style the tab */
+
+body
+{
+    position: relative;
+  
+  
+      width: 75%;
+      left: 250px;
+      background-attachment: fixed;
+      background-image: url("../images/bg.png");
+  z-index: 1;
+    background-color: hsla(0,0%,90%,0.99);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+ .error {color: #FF0000;}
+/* Change background color of buttons on hover */
+.header img {
+  float: left;
+  width: 420px;
+  height: 120px;
+ 
+  
+}
+
+.header h1 {
+    float: left;
+  
+  top: 50px;
+  left: 30px;
+  font-size: 65px ;
+  color: #073D85;
+  font-style: italic;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    width: 88%;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    
+}
+
+li a {
+    display: block;
+    
+    color: white;
+    text-align: center;
+    padding: 14px 16px ;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #BB5E0A;
+}
+
+.active
+{
+    background-color: #073D85;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #333;
+}
+
+li.dropdown {
+    display: inline-block;
+  
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+   
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: whitesmoke;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #BB5E0A}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+/*register owner */
+
+.ownerReg 
+{
+    
+}
+
+.ownerReg h2 {
+  position: relative;
+ 
+  left: 360px;
+  font-size: 35px ;
+  color: #000;
+  
+}
+
+.ownerReg form
+{
+    position: relative;
+    left: 50px;
+}
+
+.ownerReg input
+{
+    font-size: 25px ;
+}
+
+.ownerReg button
+{
+    color: #333;
+    font-size: 25px ;
+    position: relative;
+    left: 220px;
+}
+
+.reg table
+{
+    width: 75%;
+}
+ table {
+    border-collapse: collapse;
+    width: 75%;
+     position: relative;
+     left: 50px;
+    
+}
+
+ td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+ tr:hover { 
+   background: #073D85; 
+}
+ tr:nth-child(even) {
+    background-color: gold;
+}
+  tr:nth-child(even):hover {
+    background-color:#073D85;
+}
+
+  tr:nth-child(odd):hover {
+    
+    background-color: #BB5E0A;
+}
